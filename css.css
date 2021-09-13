@@ -1,0 +1,469 @@
+html {
+    height: 100%;
+  }
+  
+  body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+.add-button {
+    
+    width: 100%;
+    height: 10%;
+    background-color: #faba00;
+    font-family:'Mickey', sans-serif;
+    color: black;
+    font-size: 40px;
+    border-color: black;
+    
+    
+    
+   }
+#container{
+    height:90%;
+    width: 100%;
+    background-image: url("Mickey\ Watch.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+#watch-clock{
+   margin-top: 5%;
+   width: 35%;
+   height: 75%;
+   
+   
+  
+} 
+
+ #text{
+     position: absolute;
+     left: 100px;
+     width: 400px;
+     font-family: 'Mickey', sans-serif;
+     margin-right: 0px;
+
+ }
+ p{
+     color: gray ;
+ }
+  @media screen and (max-width: 1410px ){
+      
+    #text{
+        position: absolute;
+        left: 50px;
+        width: 400px;
+        font-family: 'Mickey', sans-serif;
+        margin-right: 0px;
+   
+    } 
+  
+   
+ }  
+ @media screen and (max-width: 1317px ){
+      
+    #text{
+        position: absolute;
+        left: 10px;
+        width: 300px;
+        font-family: 'Mickey', sans-serif;
+        margin-right: 0px;
+   
+    } 
+    #watch-clock{
+        margin-top: 8%;
+        width: 35%;
+        height: 75%;
+        
+        
+       
+     } 
+  
+   
+ }  
+ @media screen and (max-width: 1037px ){
+      
+    #text{
+        position: absolute;
+        left: 10px;
+        width: 200px;
+         
+    } 
+    #watch-clock{
+        margin-top: 8%;
+        width: 40%;
+        height: 80%;
+        
+        
+       
+     } 
+  p{
+      display: none;
+  }
+   
+ } 
+ @media screen and (max-width: 1024px){
+    #container{
+        height:40%;
+        width: 100%;
+        background-image: url("Mickey\ Watch.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+      
+    } 
+    #text{
+        position: absolute;
+        left: 10px;
+        width: 200px;
+         
+    } 
+    #watch-clock{
+        margin-top: 8%;
+        width: 40%;
+        height: 80%;
+          
+     } 
+  p{
+      display: none;
+  }
+   
+ } 
+ @media screen and (max-width: 785px ){
+      
+    #text{
+        position: absolute;
+        left: 10px;
+        bottom: 550px;
+        width: 150px;
+         
+    } 
+    #watch-clock{
+        margin-top: 12%;
+        width: 60%;
+        height: 90%;
+        
+        
+       
+     } 
+  p{
+      display: none;
+  }
+   
+ }
+ @media screen and (max-width: 768px ){
+    #container{
+        height:80%;
+        width: 100%;
+        background-image: url("Mickey\ Watch.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+      
+    }
+      
+    #text{
+        position: absolute;
+        left: 10px;
+        bottom: 550px;
+        width: 150px;
+         
+    } 
+    #watch-clock{
+        margin-top: 12%;
+        width: 60%;
+        height: 90%;
+        
+        
+       
+     } 
+  p{
+      display: none;
+  }
+   
+ }
+ @media screen and (max-width: 578px ){
+      
+    #text{
+        position: absolute;
+        left: 5px;
+        bottom: 500px;
+        width: 100px;
+         
+    } 
+    #watch-clock{
+        margin-top: 12%;
+        width: 60%;
+        height: 90%;
+        
+        
+       
+     }
+  p{
+      display: none;
+  }
+   
+ }
+ @media screen and (max-width: 540px ){
+    #container{
+        height:90%;
+        width: 100%;
+        background-image: url("Mickey\ Watch.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+      
+    }
+    .add-button {
+    
+        width: 100%;
+        height: 10%;
+        background-color: #faba00;
+        font-family:'Mickey', sans-serif;
+        color: black;
+        font-size: 30px;
+        border-color: black;
+        
+        
+        
+       } 
+    #text{
+        
+            position: absolute;
+            left: 5px;
+            bottom: 380px;
+            width: 50px;
+             
+    
+    } 
+    #watch-clock{
+        margin-top: 15%;
+        margin-right: 0%;
+        width: 100%;
+        height: 90%;
+        
+        
+       
+     } 
+  p{
+      display: none;
+  }
+   
+ }
+ @media screen and (max-width: 519px ){
+      
+    #text{
+        display: none;
+         
+    } 
+    #watch-clock{
+        margin-top: 12%;
+        width: 60%;
+        height: 90%;
+        
+        
+       
+     }
+  p{
+      display: none;
+  }
+   
+ }
+ @media screen and (max-width: 415px ){
+    #container{
+        height:90%;
+        width: 100%;
+        background-image: url("Mickey\ Watch.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 220%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+      
+    }
+    .add-button {
+    
+        width: 100%;
+        height: 10%;
+        background-color: #faba00;
+        font-family:'Mickey', sans-serif;
+        color: black;
+        font-size: 30px;
+        border-color: black;
+        
+        
+        
+       } 
+    #text{
+        position: absolute;
+        left: 10px;
+        bottom: 550px;
+        width: 150px;
+         
+    } 
+    #watch-clock{
+        margin-top: 16%;
+        margin-right: 5%;
+        width: 100%;
+        height: 90%;
+        
+        
+       
+     } 
+  p{
+      display: none;
+  }
+   
+ }
+ @media screen and (max-width: 412px ){
+    #container{
+        height:90%;
+        width: 100%;
+        background-image: url("Mickey\ Watch.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+      
+    }
+    .add-button {
+    
+        width: 100%;
+        height: 10%;
+        background-color: #faba00;
+        font-family:'Mickey', sans-serif;
+        color: black;
+        font-size: 30px;
+        border-color: black;
+        
+        
+        
+       } 
+    #text{
+        display: none;
+         
+    } 
+    #watch-clock{
+        margin-top: 16%;
+        margin-right: 5%;
+        width: 100%;
+        height: 90%;
+        
+        
+       
+     } 
+  p{
+      display: none;
+  }
+   
+ }
+ @media screen and (max-width: 375px ){
+    #container{
+        height:90%;
+        width: 100%;
+        background-image: url("Mickey\ Watch.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+      
+    }
+    .add-button {
+    
+        width: 100%;
+        height: 10%;
+        background-color: #faba00;
+        font-family:'Mickey', sans-serif;
+        color: black;
+        font-size: 30px;
+        border-color: black;
+        
+        
+        
+       } 
+    #text{
+        display: none;
+         
+    } 
+    #watch-clock{
+        margin-top: 20%;
+        margin-right: 0%;
+        width: 100%;
+        height: 80%;
+        
+        
+       
+     } 
+  p{
+      display: none;
+  }
+   
+ }
+ @media screen and (max-width: 280px ){
+    #container{
+        height:90%;
+        width: 100%;
+        background-image: url("Mickey\ Watch.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+      
+    }
+    .add-button {
+    
+        width: 100%;
+        height: 10%;
+        background-color: #faba00;
+        font-family:'Mickey', sans-serif;
+        color: black;
+        font-size: 30px;
+        border-color: black;
+        
+        
+        
+       } 
+    #text{
+        display: none;
+         
+    } 
+    #watch-clock{
+        margin-top: 21%;
+        margin-right: 0%;
+        width: 100%;
+        height: 90%;
+        
+        
+       
+     } 
+  p{
+      display: none;
+  }
+   
+ }
+ 
+   

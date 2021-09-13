@@ -1,0 +1,80 @@
+<html lang="en" manifest="site.manifest">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css.css">
+    <title>My Watch</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon.ico" />
+    <link rel="apple-touch-icon" sizes="57x57" href="./apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="./android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./favicon-96x96.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="manifest" href="./manifest.webmanifest" />
+        <msapplication>
+
+
+        <tile>
+
+            <square70x70logo src="/ms-icon-70x70.png" />
+
+            <square150x150logo src="/ms-icon-150x150.png" />
+
+            <square310x310logo src="/ms-icon-310x310.png" />
+
+            <TileColor>#ffffff</TileColor>
+
+        </tile>
+
+    </msapplication>
+
+    </browserconfig>
+    
+    <style>
+        @import url('https://fonts.cdnfonts.com/css/mickey');
+    </style>
+</head>
+
+<body>
+    <button class="add-button">Add to home screen</button>
+
+    <div id="container">
+        <div id="text">
+            <h1>Swatch Mickey Watch</h1>
+            <h3>Swatch Damien Hirts Spot Mickey Watch</h3>
+            <p>The Swatch watch brand collaborates with today's most popular English artist , collector and art
+                entrepreneur, Damien Hirst, in a very special collaboration. The UK's richest living artist participates
+                in
+                a collaboration with the creative watch brand Swatch in an endearing production: celebrating the 90th
+                anniversary of the birth of Mickey Mouse.</p>
+        </div>
+        <canvas onclick="Song()" id="watch-clock" height="500px" width="414px"></canvas>
+
+    </div>
+
+    <audio src="audio.wav" autoplay id="mickeySong"></audio>
+    <script src="watch.js"></script>
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker
+                .register('./sw.js')
+                .then(() => { console.log('Service Worker Registered'); });
+        }
+    </script>
+</body>
+
+</html>
