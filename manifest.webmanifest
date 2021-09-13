@@ -70,8 +70,8 @@
        "type": "image\/png"
       }, 
       { 
-        "src":"./apple-icon-114x114.png.png",
-        "sizes": "144x144",
+        "src":"./apple-icon-114x114.png",
+        "sizes": "114x114",
         "type": "image\/png"
        },  
        { 
@@ -97,7 +97,7 @@
        },
        { 
         "src":"./favicon-96x96.png",
-        "sizes": "32x32",
+        "sizes": "96x96",
         "type": "image\/png"
        }
     ],
