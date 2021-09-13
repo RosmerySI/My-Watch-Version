@@ -7,6 +7,7 @@ self.addEventListener('install', (e) => {
         './css.css',
         './icon.png',
         './Mickey Watch.jpg',
+        './site.manifest',
         './audio.wav',
         './favicon.ico',
         "./apple-icon-57x57.png",
@@ -18,9 +19,7 @@ self.addEventListener('install', (e) => {
         "./apple-icon-144x144.png",
         "./apple-icon-152x152.png",
         "./apple-icon-180x180.png",
-        "./android-icon-192x192.png",
-        "./favicon-32x32.png",
-        "./favicon-96x96.png"      
+           
 
      ])),
     );
