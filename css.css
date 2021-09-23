@@ -17,10 +17,56 @@ html {
     color: black;
     font-size: 40px;
     border-color: black;
+  }
+  :root {
+    --color-dark: #000;
+    --color-light: #BBC3C9;
+    --color-button: #fdffff;
+    --color-gray: #BBC3C9;
+    --color-father: #fefefe;
+    --color-darkLight: #3e4343;
+    --color-back: #dce0ec;
+
     
-    
-    
-   }
+}
+  #switch{
+    /* position: relative;
+    bottom: 57px;
+    left: 210px;  */
+ }
+ .switch-button {
+     display: inline-block;
+     margin-left: 30px;
+ }
+ 
+ .switch-button .switch-button__checkbox {
+     display: none;
+ }
+ .switch-button .switch-button__label {
+     background-color: var(--color-light);
+     width: 50px;
+     height: 30px;
+     border-radius: 3rem;
+     display: inline-block;
+     position: relative;
+ }
+ .switch-button .switch-button__label:before {
+     transition: .2s;
+     display: block;
+     position: absolute;
+     width: 30px;
+     height: 30px;
+     background-color: var(--color-button);
+     content: '';
+     border-radius: 50%;
+     box-shadow: inset 0px 0px 0px 1px var(--color-gray);
+ }
+ .switch-button .switch-button__checkbox:checked + .switch-button__label {
+    background-color: var(--color-dark);
+ }
+ .switch-button .switch-button__checkbox:checked + .switch-button__label:before {
+     transform: translateX(1.5rem);
+ }
 #container{
     height:90%;
     width: 100%;
@@ -465,5 +511,3 @@ html {
   }
    
  }
- 
-   
